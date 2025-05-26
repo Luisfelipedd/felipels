@@ -1,0 +1,127 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: linear-gradient(45deg, #FF6347, #0c0c09, #131513);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 5px solid #fafaf9;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: #eeecdd;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFD700;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: rg
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.social-button i {
+  margin-right: 8px;
+}
+
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.whatsapp:hover {
+  background-color: #128C7E;
+  transform: scale(1.05);
+}
+
+.facebook {
+  background-color: #1877F2;
+}
+
+.facebook:hover {
+  background-color: #165EAB;
+  transform: scale(1.05);
+}
+
+.instagram {
+  background-color: #E4405F;
+}
+
+.instagram:hover {
+  background-color: #C13584;
+  transform: scale(1.05);
+}
