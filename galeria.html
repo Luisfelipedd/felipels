@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opções de Tendas - Aluguel de Tendas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .tenda {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+      padding: 20px;
+    }
+    .tenda img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .tenda h2 {
+      color: #333;
+    }
+    .tenda p {
+      color: #666;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tipos de Tendas</h1>
+</header>
+
+<div class="container">
+  <!-- Tenda Piramidal -->
+  <div class="tenda">
+    <img src="./tenda-piramidal-teto-duplo-10x10-branco.jpg" alt="Tenda Piramidal">
+    <h2>Tenda Piramidal</h2>
+    <p>Ideal para eventos ao ar livre, oferecendo elegância e praticidade.</p>
+  </div>
+
+  <!-- Tenda Garagem -->
+  <div class="tenda">
+    <img src="./cobertura-estacionamento-lauro-de-freitas-ba-2.jpg" alt="Tenda Garagem">
+    <h2>Tenda Garagem</h2>
+    <p>Perfeita para proteção de veículos ou armazenamento temporário.</p>
+  </div>
+
+  <!-- Tenda para Eventos -->
+  <div class="tenda">
+    <img src="./tenda-para-casamentos-brasilia-tendas-2-2.jpg" alt="Tenda para Eventos">
+    <h2>Tenda para Eventos</h2>
+    <p>Espaço versátil para feiras, casamentos e outros eventos sociais.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Aluguel de Tendas - Todos os direitos reservados</p>
+</footer>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opções de Tendas - Aluguel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ca7373;
+    }
+    header {
+      background-color: #4b8cd1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .tenda {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+      padding: 20px;
+    }
+    .tenda img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .tenda h2 {
+      color: #333;
+    }
+    .tenda p {
+      color: #666;
+    }
+    .preco {
+      font-size: 20px;
+      font-weight: bold;
+      color: #28a745;
+      margin: 10px 0;
+    }
+    select, input[type="date"] {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .botao-alugar {
+      background-color: #00ffb3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .botao-alugar:hover {
+      background-color: #4da0f8;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Opções de Tendas para Aluguel</h1>
+</header>
+
+<div class="container">
+  <!-- Tenda Piramidal -->
+  <div class="tenda">
+    <img src="./download.jpg" alt="Tenda Piramidal">
+    <h2>Tenda Piramidal</h2>
+    <p>Ideal para eventos ao ar livre, oferecendo elegância e praticidade.</p>
+    <div class="preco">R$ 250,00 / dia</div>
+    
+    <label>Forma de Pagamento:</label>
+    <select>
+      <option value="">Escolha a forma de pagamento</option>
+      <option value="Pix">Pix</option>
+      <option value="Cartão de Crédito">Cartão de Crédito</option>
+      <option value="Boleto">Boleto Bancário</option>
+    </select>
+
+    <label>Data de Início:</label>
+    <input type="date" class="data-inicio">
+
+    <label>Data de Término:</label>
+    <input type="date" class="data-fim">
+
+    <button class="botao-alugar">Alugar Agora</button>
+  </div>
+
+  <!-- Tenda Garagem -->
+  <div class="tenda">
+    <img src="./download (1).jpg" alt="Tenda Garagem">
+    <h2>Tenda Garagem</h2>
+    <p>Perfeita para proteção de veículos ou armazenamento temporário.</p>
+    <div class="preco">R$ 180,00 / dia</div>
+
+    <label>Forma de Pagamento:</label>
+    <select>
+      <option value="">Escolha a forma de pagamento</option>
+      <option value="Pix">Pix</option>
+      <option value="Cartão de Crédito">Cartão de Crédito</option>
+      <option value="Boleto">Boleto Bancário</option>
+    </select>
+
+    <label>Data de Início:</label>
+    <input type="date" class="data-inicio">
+
+    <label>Data de Término:</label>
+    <input type="date" class="data-fim">
+
+    <button class="botao-alugar">Alugar Agora</button>
+  </div>
+
+  <!-- Tenda para Eventos -->
+  <div class="tenda">
+    <img src="./tenda00.jpg" alt="Tenda para Eventos">
+    <h2>Tenda para Eventos</h2>
+    <p>Espaço versátil para feiras, casamentos e outros eventos sociais.</p>
+    <div class="preco">R$ 400,00 / dia</div>
+
+    <label>Forma de Pagamento:</label>
+    <select>
+      <option value="">Escolha a forma de pagamento</option>
+      <option value="Pix">Pix</option>
+      <option value="Cartão de Crédito">Cartão de Crédito</option>
+      <option value="Boleto">Boleto Bancário</option>
+    </select>
+
+    <label>Data de Início:</label>
+    <input type="date" class="data-inicio">
+
+    <label>Data de Término:</label>
+    <input type="date" class="data-fim">
+
+    <button class="botao-alugar">Alugar Agora</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Aluguel de Tendas - Todos os direitos reservados</p>
+</footer>
+
+
+<script>
+  const numeroWhatsApp = "+5592986048211"; 
+
+  document.querySelectorAll(".botao-alugar").forEach((botao) => {
+    botao.addEventListener("click", () => {
+      const tenda = botao.closest(".tenda");
+      const nomeTenda = tenda.querySelector("h2").innerText;
+      const preco = tenda.querySelector(".preco").innerText;
+      const pagamento = tenda.querySelector("select").value;
+      const dataInicio = tenda.querySelector(".data-inicio").value;
+      const dataFim = tenda.querySelector(".data-fim").value;
+
+      if (!pagamento || !dataInicio || !dataFim) {
+        alert("Por favor, preencha todas as informações antes de continuar.");
+        return;
+      }
+
+      const mensagem = `Olá! Tenho interesse em alugar a *${nomeTenda}* pelo valor de *${preco}*. 
+Forma de pagamento: *${pagamento}*.
+Data de início: *${dataInicio}*.
+Data de término: *${dataFim}*.`;
+
+      const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+      window.open(url, "_blank");
+    });
+  });
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
